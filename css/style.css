@@ -1,0 +1,488 @@
+/* All Common CSS Start */
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a,a:hover{
+  display: inline-block;
+  text-decoration: none;
+}
+ol,ul{
+  list-style-type: none;
+}
+h1,h1,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+/* All Common CSS End */
+
+/* Header Navbar Part Start */
+#header_part{
+  background: rgb(48, 3, 112);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 20px;
+}
+.nav-link{
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-style: 18px;
+  transition: 0.1s;
+}
+.nav-link:hover{
+  color: #ffd485;
+  font-weight: 800;
+  font-style: 30px;
+}
+.fa-bars{
+  color: #ffffff;
+  font-size: 40px;
+  padding: 10px;
+  background: #3C0486;
+}
+.fa-bars:hover{
+  color: #ffd485;
+  font-size: 45px;
+}
+/* Header Navbar Part End */
+
+/* Header Banner Part Start */
+#banner_part{
+  padding-top: 90px;
+  background: url(../images/header-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.b-text-btn h4{
+  padding-top: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #ffffff;
+}
+.b-text-btn h1{
+  font-family: "Raleway", sans-serif;
+  line-height: 67px;
+  font-weight: 700;
+  font-size: 58px;
+  color: #ffffff;
+  padding-right: 4px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.b-text-btn span{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 58px;
+  color: #ffffff;
+}
+.b-text-btn p{
+  font-family: "Raleway", sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 21px;
+  color: #ffffff;
+  padding-right: 55px;
+  padding-bottom: 20px;
+}
+.b-text-btn a{
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: #FFA500;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+/* Header Banner Part End */
+
+/* Text Banner Part Start */
+#text_banner_part{
+  padding: 100px 0;
+}
+.t-one h4{
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #30006C;
+}
+.t-one h3{
+  line-height: 58px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #30006C;
+}
+.t-one span{
+  font-weight: 700;
+}
+.t-one p{
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #30006C;
+}
+.t-two p{
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.t-two h4{
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #300370;
+}
+/* Text Banner Part End */
+
+/* Choice Part Start */
+#choice_part{
+  padding-top: 130px;
+  background: #4D008B;
+}
+.c-h-text h4{
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #ffffff;
+}
+.c-h-text h3{
+  line-height: 55px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: #ffffff;
+}
+.c-h-text span{
+  font-weight: 700;
+  font-size: 42px;
+}
+.c-h-text p{
+  line-height: 21px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #ffffff;
+}
+.c-elements p{
+  line-height: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0 27px;
+}
+/* Choice Part End */
+
+/* Marketing & Convince Part Star */
+#marketing_part{
+  padding: 130px 0;
+}
+.m-h-text h4{
+  line-height: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #30006C;
+}
+.m-h-text h3{
+  line-height: 55px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: #30006C;
+}
+.m-h-text span{
+  font-weight: 700;
+  font-size: 42px;
+}
+.m-h-text p{
+  line-height: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #30006C;
+}
+/* Marketing & Convince Part End */
+
+/* About Part Start */
+#about_part{
+  background: url(../images/about-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.panel{
+  background: rgba(0, 0, 0, 0.770);
+  padding: 120px 0;
+}
+.ab-h-text h4{
+  line-height: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #F3F1D8;
+}
+.ab-h-text h3{
+  line-height: 55px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: #F3F1D8;
+}
+.ab-h-text span{
+  font-weight: 700;
+  font-size: 42px;
+}
+.ab-h-text p{
+  line-height: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #F3F1D8;
+}
+.ab-elements h3{
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 43px;
+  color: #ffffff;
+  padding: 25px 0;
+}
+.ab-elements p{
+  line-height: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+/* About Part End */
+
+/* Client Part Start */
+#client_part{
+  padding-top: 120px;
+  padding-bottom: 110px;
+}
+.c-t-one h3{
+  line-height: 55px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #30006C;
+}
+.c-t-one span{
+  font-weight: 700;
+}
+.c-t-one h4{
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #30006C;
+}
+.c-t-one p{
+  line-height: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #30006C;
+  padding: 20px 0;
+}
+.c-t-one h5{
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #30006B;
+}
+.client-images img{
+  width: 170px;
+}
+/* Client Part End */
+
+/* Contact Part Start */
+#contact_part{
+  padding-top: 55px;
+  background: url(../images/contact-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-text h4{
+  padding-top: 100px;
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #F3F1D8;
+}
+.contact-text h3{
+  line-height: 55px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #F3F1D8;
+}
+.contact-text span{
+  font-weight: 700;
+}
+.contact-text p{
+  line-height: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #F3F1D8;
+}
+.contact-btn a{
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 15px 10px;
+  background: #FFA500;
+  border-radius: 10px;
+}
+.ct-btn a{
+  padding-right: 44px;
+  padding-left: 44px;
+}
+/* Contact Part End */
+
+/* Self Comment Part Start */
+#s_comment_part{
+  padding: 80px 0;
+}
+.s-c-text h3{
+  line-height: 55px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #30006C;
+}
+.s-c-text span{
+  font-weight: 700;
+}
+.s-c-text i{
+  font-size: 50px;
+  color: #FFA500;
+}
+.s-c-text h5{
+  line-height: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #310471;
+}
+/* Self Comment Part End */
+
+/* Service Part Start */
+#service_part{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background: #4B0088;
+}
+.service_text h3{
+  line-height: 36px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #F3F1D8;
+}
+.service_text p{
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #F3F1D8;
+  padding-right: 54px;
+}
+.service_text p span{
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+}
+.service_text h4{
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #F3F1D8;
+}
+.service_text h4 span:hover{
+  color: #FFA500;
+}
+.service_text h5{
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #F3F1D8;
+}
+.service_text h5 span:hover{
+  color: #FFA500;
+}
+/* Service Part End */
+
+/* Social and Payment Icons Part Start */
+#s-p-icons_part{
+  padding: 20px 0;
+  background: #38227B;
+}
+.social-icons i{
+  color: #ffffff;
+  font-size: 40px;
+  padding-left: 30px;
+}
+.payment-icons i{
+  color: #ffffff;
+  font-size: 40px;
+  padding-left: 30px;
+}
+/* Social and Payment Icons Part End */
+
+/* Blank space start */
+#blank_space{
+  padding: 30px 0;
+  background: #ffffff;
+}
+/* Blank space End */
+
+/* Footer Part Start */
+#footer_part{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: #22036F;
+}
+.footer_text_logo h3{
+  padding-top: 40px;
+  padding-bottom: 15px;
+  line-height: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+.f-text p{
+  padding-top: 50px;
+  line-height: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+/* Footer Part End */
